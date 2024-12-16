@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists</title>
+</head>
+<body>
+    <h1>Μη ταξινομημένη λίστα</h1>
+    <ul> 
+        <li>Html</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <h1>Ταξινομημένη λίστα</h1>
+    <!-- <ol type="i"> ordered list --> 
+        <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+
+<ol type="i" reversed>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+</ol>
+
+<!-- dt = description text -->
+<h1>Περιγραφική λίστα</h1>
+<!-- <dl> DESCRIPTION LIST -->
+    <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+
+        <dt>CSS</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum numquam, eligendi, quas dolor fugit repudiandae ratione natus maiores tempore inventore aspernatur nam facilis aliquam. Cupiditate quo ratione quibusdam voluptatum distinctio.</dd>
+
+        <dt>JavaScript</dt>
+        <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis doloremque ducimus repellendus necessitatibus fugit, in non accusamus aliquam cumque! Dolorem quo explicabo veniam, laudantium minima sapiente. Dolor maxime eveniet omnis?</dd>
+</dl>
+
+<h1>Συνδυασμός λιστών</h1>
+<ul>
+    <li>HTML Chapters
+    <ol>
+        <li>Tables</li>
+        <li>Forms</li>
+        <li>Images</li>
+    </ol>
+
+    <li>CSS Chapters
+        <ol>
+<li>Sekectors</li>
+<li>Attributes</li>
+        </ol>
+    </li>
+    </li>
+</ul>
+
+<dl>
+    <dt>HTML</dt>
+    <dd>HTML Chapters</dd>
+        <ul>
+    <li>Tables</li>
+    <li>Forms</li>
+    <li>Images</li>
+        </ul>
+    </dd>
+</dl>
+
+<h2>Λίστα μέσα σε λίστα</h2>
+<ul>
+<li>Στερεά Ελλάδα</li>
+<li>Αττική
+<ul>
+<li>Ανατολική Αττική</li>
+<li>δυτική Αττική </li>
+</ul>
+</li>
+<li>Κρήτη</li>
+</ul>
+
+
+
+<h1>Λίστα μέσα σε λίστα</h1>
+<ul>
+    <li>Στερεά Ελλάδα</li>
+    <li>Αττική
+        <ul>
+            <li>Ανατολική Αττική</li>
+            <li>Δυτική Αττική</li>
+            </ul>
+    </li>
+    <li>Κρήτη</li>
+</ul>
+
+<input type="text" name="lastname" value="Πληκτρολογείστε Επώνυμο">
+
+<textarea name="details" rows="5" cols="50">Δώστε το επώνυμό σας</textarea>
+
+<select name="fruits">
+    <option value="Apples">Apples</option>
+    <option value="Oranges">Oranges</option>
+    <option value="Bananas">Bananas</option>
+    <option value="Grapefruit">Grapefruit</option>
+</select>
+
+<input type="checkbox" name="fruits" value="Apples">Apples<br>
+<input type="checkbox" name="fruits" value="Oranges">Oranges<br>
+<input type="checkbox" name="fruits" value="Bananas">Bananas<br><br>
+
+<input type="radio" name="mstatus" value="nmar" checked>non-married<br>
+<input type="radio" name="mstatus" value="mar">Married<br><br>
+
+<form>
+    <div>
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username">
+    </div>
+
+    <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+    </div>
+
+    <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+    </div><br>
+
+    <div>
+        <label for="message">Message</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+    </div>
+</form>
+
+<input type="submit" value="Πατήστε εδώ"><br><br>
+
+<form>
+    <fieldset style="width:450px;">
+        <legend>Firstname/Lastname</legend>
+        <div>
+            <label for="lastname">Lastname</label>
+            <input type="text" name="lastname" id="lastname" size="40">
+        </div>
+        <div>
+            <label for="sumbission-date">Submission Date</label>
+            <input type="text" placeholder="DD-MM-YYYY">
+        </div>
+    </fieldset>
+</form>
+</body>
+</html>

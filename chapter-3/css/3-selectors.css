@@ -1,0 +1,25 @@
+h2[id], p[id] {
+    background-color: aquamarine;
+}
+/* OPOY PERILAMVANETE H IDIOTITA ID STO H2 KAI P */
+
+a[href="#"] {
+    background-color: blueviolet;
+}
+
+/* symbol ^ starts with "info" */
+*[class^="info"] {
+color: green;
+}
+/* pairnei ola ta elements (*) pou exoun class kai to οποίο classname ksekinaei me tin leksi info */
+
+/* symbol * contains "text" */
+*[class*="text"] {
+    background-color: burlywood;
+}
+/* SHMAINEI NA PERIEXEI ME TO (*) META TO CLASS THN SUMBOLOSEIRA TEXT OPOU K AN EINAI AUTO SE OLA TA ELEMENTS POU EXOYN CLASS */
+
+/* symbol $ ends with "title"    einai epilogi me vasi tin idiotita ta parapanw*/
+h2[class$="title"] {
+    font-style: italic;
+}

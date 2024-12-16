@@ -1,0 +1,9 @@
+p {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    /* overflow: visible; */   /*ρινσι to default */
+    /* overflow: hidden;   κρυβει το κειμενο εξω απ το κουτι */
+    /* overflow: scroll;   /* κρυβει κ εμφανιζει scroll bar */
+    overflow: auto;
+}

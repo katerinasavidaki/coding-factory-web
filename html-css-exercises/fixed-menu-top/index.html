@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - CSS - JavaScript</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="d-flex flex-column">
+        <header class="bg-navy text-wedding">
+            <div class="mt-1 mb-1 ml-1">
+                <h2>Ανάπτυξη Web εφαρμογών</h2>
+                <h3>HTML - CSS - JavaScript</h3>
+            </div>
+
+            <input class="side-menu" type="checkbox" id="side-menu">
+            <label class="hamb" for="side-menu">
+                <span class="hamb-line"></span>
+            </label>
+            
+            <nav class="bg-blue active">
+                <ul class="d-flex flex-row flex-direction-response w-100">
+                    <li class="list-style-none">
+                        <a class="text-wedding d-block p-1 text-none link-hover-navy" href="#html">HTML</a>
+                    </li>
+                    <li class="list-style-none">
+                        <a class="text-wedding d-block p-1 text-none link-hover-navy" href="#css">CSS</a>
+                    </li>
+                    <li class="list-style-none">
+                        <a class="text-wedding d-block p-1 text-none link-hover-navy" href="#javascript">JavaScript</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="bg-wedding">
+            <div class="text-center">
+                <img class="banner-image mt-50 mb-50" src="../../images/html5-logo.png" alt="HTML">
+                <img class="banner-image mt-50 mb-50" src="../../images/css3-logo.png" alt="CSS">
+                <img class="banner-image mt-50 mb-50" src="../../images/javascript-logo.png" alt="JavaScript">
+            </div>
+
+            <section class="bg-beige" id="html">
+                <article class="p-1">
+                    <h1>What is HTML</h1>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem nobis deserunt, laudantium impedit sint tenetur sunt laborum maiores aspernatur, voluptates saepe recusandae doloribus nam? Aut necessitatibus nam accusamus fugiat aliquam?
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid architecto praesentium nesciunt sed consequuntur. Aliquam consectetur, vero magni nemo expedita similique vel odit, ducimus amet hic laudantium doloremque ipsum. Sed.
+                    </p>
+                    <pre>
+                        <code class="d-block w-50 bg-white border border-black m-auto">
+                            &lt;tag attributes="...."&gt;Text&lt;/tag&gt;
+                        </code>
+                    </pre>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam illum dolor alias pariatur repudiandae vero! Nemo eum eius iure, consectetur odio, et porro repellat corrupti quae quod fuga nihil asperiores.
+                    </p>
+                </article>
+            </section>
+
+            <section id="css">
+                <article class="p-1">
+                    <h1>What is CSS</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, at tempora ipsa facere laboriosam perspiciatis sit omnis asperiores delectus veniam praesentium? Ab itaque enim at nobis optio, mollitia temporibus recusandae.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint maxime eos consequuntur, ut iusto ratione facere natus nostrum quam blanditiis hic dolores quod ipsam eius reiciendis corrupti at illo laboriosam!
+                    </p>
+                    <pre>
+                        <code class="d-block w-50 bg-white border border-black m-auto">
+                            p {     
+                                color: blue;
+                                text-align: center;
+                                border: 1px solid black;
+                            }
+                        </code>
+                    </pre>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde doloribus cumque sit perspiciatis, debitis alias nisi non voluptas iure facilis tempore, minima provident dicta voluptatibus delectus optio? Impedit, dolor omnis?
+                    </p>
+                </article>
+            </section>
+
+            <section class="bg-beige" id="javascript">
+                <article class="p-1">
+                    <h1>What is JavaScript</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa aliquid, blanditiis, accusantium eos esse excepturi omnis dolorum sit eum tempora eius! Repudiandae minus quod in possimus odio laudantium sequi nulla.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum qui pariatur placeat fuga et, ipsam modi quibusdam cupiditate unde voluptatibus amet architecto eos vero dolor rerum nam obcaecati? Consequuntur, quos.
+                    </p>
+                    <pre>
+                        <code class="d-block w-50 bg-white border border-black m-auto">
+                            &lt;script&gt;
+                                const myVariable = "Hello Coding Factory"
+                                alert(myVariable)
+                            &lt;/script&gt;
+                        </code>
+                    </pre>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus tempora ratione nulla, at temporibus quibusdam dicta sapiente velit deleniti animi magni perferendis exercitationem inventore facilis expedita explicabo dolores neque ullam?
+                    </p>
+                </article>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
