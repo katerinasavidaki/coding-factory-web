@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment form</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="center">
+        <form action="">
+            <div class="form-group">
+                <h1>Φόρμα Πληρωμής</h1>
+                <p tabindex="1">Τα υποχρεωτικά πεδία ακολουθούνται από <strong><abbr title="required">*</abbr></strong>.
+                </p>
+            </div>
+
+            <h2 id="personal">Προσωπικά Στοιχεία</h2>
+            <div class="form-group">
+                <label tabindex="3" for="title"></label>
+                <fieldset id="title">
+                    <legend tabindex="3">Τίτλος</legend>
+                    <ul>
+                        <li>
+                            <input tabindex="4" type="radio" id="mr" name="title" value="Mr">
+                            <label tabindex="3" for="mr">Κύριος</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="title" id="mrs" value="Mrs">
+                            <label for="mrs">Mrs.</label>
+                        </li>
+                        <li>
+                            <label for="dr"><input type="radio" name="title" id="dr" value="Dr">Dr.</label>
+                        </li>
+                    </ul>
+                </fieldset>
+            </div>
+
+            <div class="form-group">
+                <label for="name">
+                    <span>Name:</span>
+                    <abbr aria-label="required" title="required"><strong>*</strong></abbr>
+                </label>
+                <input type="text" name="username" id="name">
+            </div>
+
+            <div class="form-group">
+                <label for="mail">
+                    <span>Email:</span>
+                    <abbr aria-label="Υποχρεωτικό" title="required"><strong>*</strong></abbr>
+                </label>
+                <input type="email" name="usermail" id="mail">
+            </div>
+
+            <div class="form-group">
+                <label for="pwd">
+                    <span>Password:</span>
+                    <abbr title="required" aria-label="Υποχρεωτικό"><strong>*</strong></abbr>
+                </label>
+                <input type="password" name="password" id="pwd">
+            </div>
+
+            <div class="form-group" aria-labelledby="payment-info">
+                <h2 id="payment-info">Πληροφορίες Πληρωμής</h2>
+                <div class="form-group">
+                    <label for="card">
+                        <span>Card type:</span>
+                    </label>
+                    <select name="usercard" id="card">
+                        <option value="visa">Visa</option>
+                        <option value="mc">Mastercard</option>
+                        <option value="amex">American Express</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="number">
+                        <span>Card number:</span>
+                        <strong><abbr title="required">*</abbr></strong>
+                    </label>
+                    <input type="tel" name="cardnumber" id="number">
+                </div>
+                <div class="form-group">
+                    <label for="expiration">
+                        <span>Expiration date:</span>
+                        <strong><abbr title="required">*</abbr></strong>
+                    </label>
+                    <input type="text" id="expiration" required="true" placeholder="MM/YY" pattern="^(0[1-9]|1[0-2])/([0-9{2}])$">
+                </div>
+
+                <div class="form-group">
+                    <button type="submit">Προχωρήστε στην πληρωμή</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

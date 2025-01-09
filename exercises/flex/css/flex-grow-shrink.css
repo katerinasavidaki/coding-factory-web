@@ -1,0 +1,23 @@
+.container {
+    width: 90%;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box1 {
+    background-color: aqua;
+    flex: 0 0 100px;
+}
+
+.box2 {
+    background-color: bisque;
+    flex: 1 0 300px;
+}
+
+.box3 {
+    background-color: blueviolet;
+    flex: 0 0 1000px;
+}

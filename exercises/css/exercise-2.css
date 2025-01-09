@@ -1,0 +1,22 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 340px;
+    width: 400px;
+    border: 1px solid black;
+    background-color: bisque;
+    padding: 20px;
+    float: left;
+}
+
+main > img {
+    width: 140px;
+    height: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+}

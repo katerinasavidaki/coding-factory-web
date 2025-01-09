@@ -1,0 +1,104 @@
+:root {
+    --color-light: rgb(201, 197, 197);
+    --color-primary: #007bff;
+    --color-gray: rgb(104, 96, 96);
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.border-light {
+    border: 1px solid var(--color-light);
+}
+
+.box-center {
+    /* width: 80%; */
+    width: 450px;
+    /* margin: 0 auto; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rounded {
+    border-radius: 10px;
+}
+
+.mt-sm {
+    margin-top: 25px;
+}
+
+.mt-xsm {
+    margin-top: 5px;
+}
+
+.mb-sm {
+    margin-bottom: 25px;
+}
+
+.p-5 {
+    padding: 2.5rem;
+}
+
+.text-serif {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text-lg {
+    font-size: 1.7rem;
+}
+
+.text-semibold {
+    font-weight: 500;
+}
+
+.text-primary {
+    color: var(--color-primary);
+}
+
+.mb-xsm {
+    margin-bottom: 7px;
+}
+
+.text-md {
+    font-size: 1rem;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.min-h {
+    min-height: 30px;
+}
+
+.width-lg {
+    width: 98%;
+}
+
+.text-gray {
+    color: var(--color-gray);
+}
+
+.p-1 {
+    padding: 0.5rem;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn {
+    border-color: #007bff;
+    border-radius: 8px;
+    padding: 10px 25px;
+    color: #007bff;
+    background-color: white;
+    border: 3px solid;
+}
+
+
+

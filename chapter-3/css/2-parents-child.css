@@ -1,0 +1,34 @@
+img {
+    width: 600px;
+    height: auto;
+}
+
+ul > li {
+    color: red;
+}
+
+ul > li:first-child {
+    color: blue;
+}
+
+ul > li:not(:first-child) {
+    background-color: aquamarine;
+}
+
+h1 + p {
+    color: blue;
+}
+/* εφαρμόζει το styling μονο στο p το οποιο βρισκεται αμεσως μετα το h1. */
+
+img ~ p {
+    background-color: green;
+}
+/* ΟΛΕΣ ΤΙΣ ΠΑΡΑΓΡΑΦΟΥΣ ΜΕΤΑ ΤΟ ELEMENT IMG ΕΦΑΡΜΟΣΕ ΑΥΤΟ */
+
+a::before {
+    content: '\1F604';
+}
+
+a::after {
+    content: '\1F609';
+}
